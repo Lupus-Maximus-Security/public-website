@@ -10,7 +10,7 @@ const sizes = {
 const Button = ({ children, className = '', size, href }) => {
   return href ? (
     <Link
-      href={href}
+      to={href}
       className={`
   ${sizes[size] || sizes.default}
   ${className}

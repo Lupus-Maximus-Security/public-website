@@ -2,6 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Big Bad Wolf Security`,
   },
+  pathPrefix: "/public-website",
   plugins: [
     {
       resolve: `gatsby-theme-codebushi`,

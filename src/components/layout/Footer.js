@@ -12,20 +12,20 @@ const Footer = () => (
       <div className="flex-1 px-3 text-center">
         <ul className="leading-loose">
           <li>
-            <Link href="/legal">Terms &amp; Conditions</Link>
+            <Link to="/legal">Terms &amp; Conditions</Link>
           </li>
         </ul>
       </div>
       <div className="flex-1 px-3 text-right">
         <ul className="leading-loose">
           <li>
-            <Link href="/">Home</Link>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <Link href="/about">About</Link>
+            <Link to="/about">About</Link>
           </li>
           <li>
-            <Link href="/contact">Contact</Link>
+            <Link to="/contact">Contact</Link>
           </li>
         </ul>
       </div>

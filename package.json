@@ -6,7 +6,8 @@
   "scripts": {
     "develop": "gatsby develop",
     "build": "gatsby build",
-    "lint": "prettier --write \"src/**/*.js\""
+    "lint": "prettier --write \"src/**/*.js\"",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "dependencies": {
     "gatsby": "^3.0.3",
