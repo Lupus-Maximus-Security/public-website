@@ -19,9 +19,9 @@ import android from '../img/android.png';
 const Index = () => (
   <HeroLayout>
     <section>
-      <div className="container mx-auto px-8 flex flex-col h-screen md:justify-center justify-items-center items-center content-center">
+      <div className="mx-auto px-8 flex flex-col h-screen md:justify-center justify-items-center items-center content-center">
         <div
-          className="text-center mb-4 md:mb-24 text-3xl lg:text-6xl mt-4 md:mt-6 font-bold mx-4 md:mx-24 text-white"
+          className="text-center mb-4 md:mb-12 text-3xl lg:text-wumbo lg:leading-wumbo leading-10 mt-4 md:mt-6 font-bold mx-4 md:mx-24 text-white"
           style={{ textShadow: '1px 1px 2px #000' }}
         >
           We build brick houses to protect what matters most to your organization.

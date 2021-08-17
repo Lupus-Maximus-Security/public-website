@@ -1,6 +1,12 @@
 module.exports = {
   theme: {
     extend: {
+      fontSize: {
+        'wumbo': '8rem',
+      },
+      lineHeight: {
+        'wumbo': '7rem',
+      },
       zIndex: {
         '-10': '-10',
         '-20': '-20',
