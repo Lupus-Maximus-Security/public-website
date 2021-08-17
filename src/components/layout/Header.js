@@ -21,7 +21,7 @@ const Header = ({}) => (
           Contact
         </Link>
       </div>
-      <div className="invisible md:visible self-end justify-self-end">
+      <div className="invisible md:visible justify-self-end">
         <Button className="text-sm" href="/contact">
           Contact Us
         </Button>
