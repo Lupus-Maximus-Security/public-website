@@ -2,10 +2,12 @@ import React from 'react';
 import Footer from './Footer';
 import Header from './Header';
 import heroimg from '../../img/brickhouse.jpg';
+import Helmet from './Helmet';
 
 const HeroLayout = ({ children }) => {
   return (
     <React.Fragment>
+      <Helmet />
       <div className="absolute -z-40 w-full h-full">
         <div className="absolute inset-0 w-full h-full bg-gray-500 bg-opacity-50"></div>
         <div

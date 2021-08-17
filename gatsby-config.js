@@ -3,6 +3,7 @@ module.exports = {
     title: `Big Bad Wolf Security`,
   },
   plugins: [
+    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-theme-codebushi`,
       options: {
