@@ -17,6 +17,9 @@ const Header = ({}) => (
         <Link className="px-4" to="/about">
           About
         </Link>
+        <Link className="px-4" to="/careers">
+          Careers
+        </Link>
         <Link className="visible md:invisible px-4" to="/contact">
           Contact
         </Link>

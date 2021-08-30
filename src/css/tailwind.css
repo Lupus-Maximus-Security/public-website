@@ -7,6 +7,10 @@ a:hover {
   @apply text-primary-darker;
 }
 
+ul {
+  list-style-position: outside;
+}
+
 @tailwind components;
 
 @tailwind utilities;
