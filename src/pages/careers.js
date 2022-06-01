@@ -32,13 +32,12 @@ const Index = () => (
 
         <div>
           <p>
-            <p><b>Rust Developer / Developer in Test</b></p>
+            <p><b>Lead Rust / Linux Developer</b></p>
           </p>
           <p>
-            Help build a Linux desktop secure virtualization product that will be deployed to tens of thousands of users. This is a unique opportunity to build
+            Help build a Linux desktop secure virtualization product that will be deployed to tens of thousands of users. This is a unique oppurtunity to build
             a desktop-focused Linux product with a great tech stack: KVM, libvirt, rust, rpm-ostree. We are a small team of very experienced Linux developers
-            looking to add another developer that will work on both development and test automation, including test as part of continuos integration. Automating the testing
-            of this particular product is going to be challenging, so this should have some fun technical challenges beyond the normal test automation. Experience we are looking for:
+            looking to add another experienced developer. Experience we are looking for:
           </p>
           <div class="container mx-auto px-12 mt-4 mb-4">
             <ul class="list-disc">
@@ -46,49 +45,22 @@ const Index = () => (
                 development. This project will both write all of the application code, but also package that into an installable RHEL-based distribution and provide
                 updates. So it's crucial that you be able to contribute to all aspects of that process. Your experience doesn't have to be with Red Hat based
                 distros, though that would be great.</li>
-              <li><b>Software Development - </b>this is ultimately a software development role, so you need to be a strong developer. Most of the new code will be in Rust,
+              <li><b>Software Development - </b> this is ultimately a software development role, so you need to be a strong developer. Most of the new code will be in Rust,
                 so experience with Rust is welcome, but experience with other compiled, statically typed languages is fine. Much of the development will be "systems
                 programming", so knowledge and experience with low-level operating system details is helpful. But there is also going to be user interface development,
                 scripting, and other bits to bring the whole system together, so a breadth of experience is welcome.</li>
-              <li><b>Test Automation - </b>this role is split between development and development in test, meaning test automation will be an important aspect of the role. The test 
-              automation will be both for the Linux desktop product itself and a range of connected infrastructure, which will include Linux, Windows, and networking infrastructure, so 
-              general IT knowledge and experience with a range of platforms is required.</li>
               <li><b>Security - </b> this is a security product (the virtualization is being used to provide separation and data confidentiality), so some experience
                 with security fundamentals is helpful. At a minimum, knowledge of secure coding practices and basic Linux access control is required. Knowledge of other aspects of security is a plus
                 (encryption, advanced access control, secure design). A strong desire to learn more about security is a must.</li>
               <li><b>Good writing skills - </b>creating good documentation is part of the core principles of the project. You don't have to be Shakespeare, but you need
                 to be able to write clearly.</li>
+              <li><b>Leadership - </b>as a lead developer on this project, you need to be capable of both writing code and providing team leadership. So that means experience organizing work,
+                assisting more junior team members, interfacing with the customer, and generally making the project a success beyond just individual contribution.
+              </li>
             </ul>
           </div>
-          <p>For this Linux Developer / Developer in Test position we are targeting someone with at least 3 - 4 years of experience, but are open to more experienced developers (and
+          <p>For this Lead Rust / Linux Developer position we are targeting someone with at least 5 - 6 years of experience, but are open to more experienced developers (and
             welcome older developers in general).
-          </p>
-        </div>
-
-        <div class="mt-4">
-          <p>
-            <p><b>Lead Software QA / Documentation</b></p>
-          </p>
-          <p>
-            Help build a Linux desktop secure virtualization product that will be deployed to tens of thousands of users. This is a unique opportunity to build
-            a desktop-focused Linux product with a great tech stack: KVM, libvirt, rust, rpm-ostree. We are a small team of very experienced Linux developers
-            looking to add quality assurance professional that can also help create the technical documentation. This is a unique role - we are looking for a creative QA person that
-            can use their attention to detail and clear communication skills to help also deliver a large package of formal documentation. Experience we are looking for:
-          </p>
-          <div class="container mx-auto px-12 mt-4 mb-4">
-            <ul class="list-disc">
-              <li><b>Testing - </b> experience creating and executing formal test plans for a complex software product throughout the development process. You will be creating the test plans
-              from scratch from developer documentation and descriptions, so this is an opportunity to do things right from the start, but it also means that you need to have a strong understanding
-              of how to structure testing to ensure software quality. You also need to understand how to balance the use of test automation and manual testing for cost of development and execution.</li>
-              <li><b>Linux, Windows, and Networking - </b> at least some experience with Linux, Windows, and basic networking to aid with debugging and test creation.</li>
-              <li><b>Security - </b> this is a security product (the virtualization is being used to provide separation and data confidentiality), so some experience
-                with security fundamentals is helpful. A portion of the tests will be security tests in addition to functional tests.</li>
-              <li><b>Good writing skills - </b>creating good documentation is part of the core principles of the project and a portion of this position is to organize and polish the documentation created
-              by the team as a whole. As such, you should have very strong writing skills, including copy-editing of technical documentation.</li>
-            </ul>
-          </div>
-          <p>For this Lead Software QA / Documentation position we are targeting someone with at least 3 - 4 years of experience, but are open to more experienced candidates (and
-            welcome older candidates in general).
           </p>
         </div>
 
@@ -99,6 +71,17 @@ const Index = () => (
           <p>
             If you are interested in SELinux, this is an opportunity to dive deep by working on systems that use SELinux to its full potential and work with one of the most experienced SELinux developers
             in the world. If you have SELinux experience or Linux security experience and a desire to learn SELinux please contact us.
+          </p>
+        </div>
+
+        <div class="mt-4">
+          <p>
+            <p><b>SEL4 Developer</b></p>
+          </p>
+          <p>
+            We have some upcoming projects using SEL4 (<a href="https://sel4.systems">https://sel4.systems</a>). If you have experience with secure operating systems / microkernels and are interested in SEL4 please get in
+            touch. This is the practical application of SEL4 to real systems not the formal verification work, so you do not need a formal verification background (though it's certainly
+            welcome if you have that experience).
           </p>
         </div>
       </div>
