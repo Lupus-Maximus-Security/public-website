@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Big Bad Wolf Security`,
+    title: `Lupus Maximus Security`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

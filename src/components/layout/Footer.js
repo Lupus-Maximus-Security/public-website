@@ -5,7 +5,7 @@ const Footer = () => (
   <footer className="py-16 px-4 mt-48 mb-8 text-white bg-black">
     <div className="flex -mx-3">
       <div className="flex-1 px-3">
-        <h2 className="text-lg font-semibold">Big Bad Wolf Security</h2>
+        <h2 className="text-lg font-semibold">Lupus Maximus Security</h2>
         <p className="mt-5">Silver Spring, MD</p>
         <p>&copy; 2021 - All Rights Reserved</p>
       </div>

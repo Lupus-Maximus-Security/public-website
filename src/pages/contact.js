@@ -21,7 +21,7 @@ const Index = () => (
               solve. Someone will get back to you shortly.
             </h1>
             <a href="mailto:info@bigbadwolfsecurity.com" className="text-2xl">
-              info@bigbadwolfsecurity.com
+              karl@lupusmaximus.com
             </a>
           </div>
         }

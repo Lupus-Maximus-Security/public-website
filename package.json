@@ -1,5 +1,5 @@
 {
-  "name": "bbws-website",
+  "name": "lm-website",
   "author": "Nick Stocchero",
   "version": "1.0.0",
   "license": "MIT",
@@ -7,7 +7,7 @@
     "develop": "gatsby develop",
     "build": "gatsby build",
     "lint": "prettier --write \"src/**/*.js\"",
-    "deploy": "gatsby build && echo 'www.bigbadwolfsecurity.com' > ./public/CNAME && gh-pages -d public"
+    "deploy": "gatsby build && echo 'www.lupusmaximus.com' > ./public/CNAME && gh-pages -d public"
   },
   "dependencies": {
     "gatsby": "^3.12.1",
